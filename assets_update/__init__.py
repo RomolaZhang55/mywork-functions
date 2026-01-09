@@ -7,7 +7,7 @@ import azure.functions as func
 from ..shared.auth import require_api_key, AuthenticationError
 from ..shared.logging_utils import create_logger
 from ..shared.sql_client import execute_update, fetch_all_records
-from ..shared.cosmos_client import get_asset_doc, upsert_asset_doc
+
 
 
 logger = create_logger(__name__)
